@@ -8,7 +8,7 @@ const initialState = {
 };
 
 // Reducers
-export default (state = initialState, action) => {
+export const greetingReducer = (state = initialState, action) => {
   switch (action.type) {
     case LOAD_GREETING:
       return action.payload;
