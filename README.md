@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Hello React (Front-End)!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
 
-## Available Scripts
+The main goals for this exercise are:
 
-In the project directory, you can run:
+- Implement a connection between a Ruby on Rails back-end and ReactJS front-end.
+- Understand the pros and cons of different approaches of connecting Ruby on Rails back-end with ReactJS front-end.
 
-### `npm start`
+In this project, only the ReactJS front-end part was implemented. The back-end part of the project can be found in [this repo](https://github.com/fortuneonyeka/hello-rails-backend).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Below, a screenshot of the app is presented:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ReactJS, Redux
+- VisualStudio Code, Git, & GitHub
 
-### `npm run build`
+## Pre-requisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- NodeJs (v. 14.17)
+- YarnJs (v. 1.22.10)
+- Git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. In your terminal, in the folder of your preference, type the following bash command to clone this repository:
 
-### `npm run eject`
+```sh
+git clone git@github.com:fortuneonyeka/Hello-react-front-end.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Now that you have already cloned the repo run the following commands to get the project up and running:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+cd hello-react-front-end
+yarn
+npx browserslist@latest --update-db
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Now, on your terminal, run:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+yarn start
+```
 
-## Learn More
+This should start your local server in [http://localhost:3000/](http://localhost:3000/). Now, you can go to your browser and visit this page, but for this app to execute properly, you need to set up the back-end part (API) which can be found in [this repo](https://github.com/fortuneonyeka/hello-rails-backend).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To stop the server, hit `<CTRL> + C` on your keyboard.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
+👤 **Ênio Neves de Souza**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- GitHub: [@fortuneonyeka](https://github.com/fortuneonyeka)
+- Twitter: [@onyekafortune](https://twitter.com/onyekafortune)
+- LinkedIn: [Ihedoro Fortunatus](https://www.linkedin.com/in/fortunatus-ihedoro/)
 
-### Analyzing the Bundle Size
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions, issues, and feature requests are welcome!
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Show your support
 
-### Advanced Configuration
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./LICENSE) licensed.
